@@ -7,3 +7,4 @@ For more information, please see the project [wiki](https://github.com/innovatio
 
 * https://github.com/innovationgarage/cloudberry-djangoproject
 * https://github.com/innovationgarage/cloudberry-netjson
+* https://github.com/innovationgarage/cloudberry-lede-openwisp-docker
