@@ -22,3 +22,5 @@ For more information on how to set up the RPi devices and how the components wor
 ## Screenshots
 
 ![Multi-device config](MultiConfig.png "Multi-device config")
+![Backend editing](Backend.png "Backend editing")
+![Backend listing](BackendManager.png "Backend listing")
