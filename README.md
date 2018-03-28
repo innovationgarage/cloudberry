@@ -9,3 +9,6 @@ For more information, please see the project [wiki](https://github.com/innovatio
 * https://github.com/innovationgarage/cloudberry-netjson
 * https://github.com/innovationgarage/cloudberry-lede-openwisp-docker
 * https://github.com/innovationgarage/cloudberry-docker-manager
+
+## Library projects (semi-unrelated)
+* https://github.com/innovationgarage/sakstig
