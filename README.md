@@ -1,6 +1,6 @@
 # The Cloudberry project
 This project aims to simplify setting up OpenWRT, OpenWISP and OpenVPN for different use cases. In particular, it makes it
-easy to set up RaspberryPI based VPN clients that connect to a dockerized VPN server to route traffic between each other. To Achieve this, Cloudberry implements a few new features on top of OpenWISP and OpenWRT:
+easy to set up groups of OpenWRT based VPN clients that each connect to a dockerized VPN server to route traffic between each other. To Achieve this, Cloudberry implements a few new features on top of OpenWISP and OpenWRT:
 
 * Multiple devices can be configured together in a single configuration that refers to the devices for various roles (e.g. server, clients, different types of clients...)
 * Configuration can be arbitrarily abstracted using transformations written in the [SakForm](https://github.com/innovationgarage/sakstig) JSON templating language
