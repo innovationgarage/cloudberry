@@ -1,7 +1,8 @@
 # The Cloudberry project
-This project aims to document how to set up OpenWRT, OpenWISP and OpenVPn on the RaspberryPI platform
+This project aims to simplify setting up OpenWRT, OpenWISP and OpenVPN for different use cases. In particular, it makes it
+easy to set up RaspberryPI based VPN clients that connect to a dockerized VPN server to route traffic between each other.
 
-For more information, please see the project [wiki](https://github.com/innovationgarage/cloudberry/wiki)
+For more information on how to set up the RPi devices and how the components work, please see the [project wiki](https://github.com/innovationgarage/cloudberry/wiki).
 
 ## Main components
 
