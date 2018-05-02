@@ -25,8 +25,10 @@ For more information on how to set up the RPi devices and how the components wor
 * [netjson](https://github.com/innovationgarage/cloudberry-netjson) - netjson extension schemas
 * [SakStig / SakForm](https://innovationgarage.github.io/sakstig/) - JSON query and templating language
 
-## Screenshots
+## The configuration transform process
 ![Backend transform process](Backend-transform.svg "Backend transform process")
+
+## Screenshots
 ![Multi-device config](MultiConfig.png "Multi-device config")
 ![Backend editing](Backend.png "Backend editing")
 ![Backend listing](BackendManager.png "Backend listing")
