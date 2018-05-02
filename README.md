@@ -7,6 +7,12 @@ easy to set up groups of OpenWRT based VPN clients that each connect to a docker
 * Configuration can optionally refer to other resources using drop-downs (e.g. certificates, CA:s)
 * Docker containers running OpenWRT, OpenWISP and OpenVPN can be deployed and configured from OpenWISP.
 
+In addition it adds the following usability features
+
+* Import / export of configurations, transforms and device data
+* Versioning of configurations, transforms and device data
+* Access control based on group ownership of configurations, transforms and device data.
+
 For more information on how to set up the RPi devices and how the components work, please see the [project wiki](https://github.com/innovationgarage/cloudberry/wiki).
 
 ## Main components
