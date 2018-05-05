@@ -1,0 +1,9 @@
+[submodule "cloudberry-djangoproject"]
+	path = cloudberry-djangoproject
+	url = https://github.com/innovationgarage/cloudberry-djangoproject
+[submodule "cloudberry-docker-manager"]
+	path = cloudberry-docker-manager
+	url = https://github.com/innovationgarage/cloudberry-docker-manager
+[submodule "cloudberry-lede-openwisp-docker"]
+	path = cloudberry-lede-openwisp-docker
+	url = https://github.com/innovationgarage/cloudberry-lede-openwisp-docker
