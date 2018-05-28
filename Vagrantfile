@@ -21,11 +21,12 @@ Vagrant.configure("2") do |config|
         # Disable annoying upgrade message
         pip3 --disable-pip-version-check install -r ${CLOUD_BERRY_DIR}/requirements.txt
 
-	python3 ${CLOUD_BERRY_DIR}/manage.py migrate
+        make -C ${CLOUD_BERRY_DIR} migrate
 	python3 ${CLOUD_BERRY_DIR}/manage.py collectstatic
+        make -C ${CLOUD_BERRY_DIR} defaultdata
 
         # Set the default directory
-        echo "cd /srv/www/cloudberry-djangoproject/" >> ~/.bashrc
+        echo "cd ${CLOUD_BERRY_DIR}" >> ~/.bashrc
 
         # Install docker
         curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
