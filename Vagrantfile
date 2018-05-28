@@ -33,5 +33,9 @@ Vagrant.configure("2") do |config|
    	$(lsb_release -cs) \ stable"
         sudo apt-get update
         sudo apt-get install -y docker-ce
+
+        # Create test user
+        cd /srv/www/cloudberry-djangoproject/ && \
+        echo "from django.contrib.auth.models import User; User.objects.create_superuser('admin', 'admin@example.com', 'admin')" | python3 manage.py shell
   SHELL
 end
