@@ -17,6 +17,7 @@ For more information on how to set up the RPi devices and how the components wor
 
 ## Main components
 
+* [app](https://github.com/innovationgarage/cloudberry-app) - Docker Compose bundle to run all server side components
 * [djangoproject](https://github.com/innovationgarage/cloudberry-djangoproject) - Centralized configuration web UI 
 * [docker-manager](https://github.com/innovationgarage/cloudberry-docker-manager) - OpenWISP front-end to docker
 * [lede-openwisp-docker](https://github.com/innovationgarage/cloudberry-lede-openwisp-docker) - OpenWISP docker image
