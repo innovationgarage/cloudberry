@@ -21,6 +21,8 @@ For more information on how to set up the RPi devices and how the components wor
 * [djangoproject](https://github.com/innovationgarage/cloudberry-djangoproject) - Centralized configuration web UI 
 * [docker-manager](https://github.com/innovationgarage/cloudberry-docker-manager) - OpenWISP front-end to docker
 * [lede-openwisp-docker](https://github.com/innovationgarage/cloudberry-lede-openwisp-docker) - OpenWISP docker image
+* [device](https://github.com/innovationgarage/cloudberry-device) - OpenWRT /etc template
+* [image-generation](https://github.com/innovationgarage/cloudberry-image-generation) - Merges a base OpenWRT image, cloudberry-device, and device setup config (UUID, KEY, server url) on demand.
 
 ## Library projects (semi-unrelated)
 * [netjson](https://github.com/innovationgarage/cloudberry-netjson) - netjson extension schemas
